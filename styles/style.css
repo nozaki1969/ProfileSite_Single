@@ -7,7 +7,7 @@ body {
 /* Layout Properties */
 display: flex;
 justify-content:space-between;  /*両端に配置*/
-width: 600px;
+width: 900px;
 margin: 0 auto; /*中央寄せ*/
 }
 
