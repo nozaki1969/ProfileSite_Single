@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+/* Layout Properties */
+display: flex;
+justify-content:space-between;  /*両端に配置*/
+}
+
+.headerLogo > img{
+/* Layout Properties */
+top: 10px;
+left: 230px;
+width: 120px;
+height: 40px;
+/* UI Properties */
+background: #393E46 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.headerGnav{
+/* Layout Properties */
+}
+
+.headerGnav__list{
+/* Layout Properties */
+display: flex;
+gap: 40px;
+}
+
+.headerGnav__item{
+/* Layout Properties */
+list-style: none;
+}
