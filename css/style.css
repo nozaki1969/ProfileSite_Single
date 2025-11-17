@@ -1,24 +1,68 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: auto;
+  padding-block: 10px;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 1px solid #000000;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
 .headerLogo {
   /* Layout Properties */
-  position: relative;
-  top: 20px;
-  left: 292px;
   width: 120px;
   height: 40px;
-  /* UI Properties */
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  opacity: 1;
 }
 
+.headerLogo>img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
 
-.profile img {
+.headerGnav {
   /* Layout Properties */
-  position: relative;
-  top: 20px;
-  left: 292px;
-  width: 8px;
-  height: 19px;
-  /* UI Properties */
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  opacity: 1;
 }
+
+.headerGnav__list {
+  /* Layout Properties */
+  display: flex;
+
+  align-items: center;
+  gap: 30px;
+
+}
+
+.headerGnav__item {
+  /* Layout Properties */
+  list-style: none;
+}
+
+.headerGnav__item.about {}
+
+.headerGnav__item.bicycle {}
