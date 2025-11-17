@@ -7,12 +7,6 @@ body {
     sans-serif;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -21,7 +15,6 @@ img {
   padding-block: 10px;
   padding-left: 4%;
   padding-right: 4%;
-  border: 1px solid #000000;
 }
 
 @media screen and (min-width: 600px) {
@@ -31,38 +24,35 @@ img {
   }
 }
 
-.headerLogo {
-  /* Layout Properties */
-  width: 120px;
-  height: 40px;
-}
+.headerLogo {}
 
 .headerLogo>img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
+  vertical-align: top;
 }
 
-.headerGnav {
-  /* Layout Properties */
-}
+.headerGnav {}
 
 .headerGnav__list {
-  /* Layout Properties */
   display: flex;
-
   align-items: center;
   gap: 30px;
-
 }
 
 .headerGnav__item {
-  /* Layout Properties */
   list-style: none;
 }
 
 .headerGnav__item.about {}
 
 .headerGnav__item.bicycle {}
+
+main {
+  width: 100%;
+}
+
+#mainvidual img {
+  display: block;
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+}
