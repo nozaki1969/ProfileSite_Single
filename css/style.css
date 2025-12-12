@@ -56,15 +56,31 @@ main {
 }
 
 #mainvisual img {
-  object-fit: cover;
-  object-position: center;
   display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  object-position: center;
+
 }
 
-@media screen and (min-width: 600px) {
-  #mainvisual img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;/
-  }
+#about,
+#bicycle {
+  max-width: 960px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+#about>h2 {
+  text-align: center;
+  font: normal normal bold 32px/48px Meiryo;
+  color: #383E45;
+}
+
+
+
+#bicycle>h2 {
+  text-align: center;
+  font: normal normal bold 32px/48px Meiryo;
+  color: #383E45;
 }
