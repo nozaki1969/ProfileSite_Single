@@ -20,21 +20,62 @@
     </nav>
   </header>
   <main>
-    <div id="mainvisual">
+    <!-- main visual -->
+    <div id="mainvisual" class="mainVisual__img">
       <img src="./images/mainvisual.jpg" alt="メインビジュアル" width="1280" height="600">
     </div>
-    <section id="about">
-      <h2>About</h2>
-      <div class="sectionContent">
-        <p></p>
+
+    <!-- about -->
+    <section id="about" class="cmnSection">
+      <h2 class="cmnSection__heading">About</h2>
+
+      <div class="aboutContent">
+        <div class="aboutContent__img">
+          <img src="./images/about.jpg" alt="プロフィール画像" width="100" height="100" />
+        </div>
+        <div class="aboutContent__txt">
+          <h3>自己紹介</h3>
+          <p>こんにちは、私は田中です。趣味は自転車に乗ることです。</p>
+        </div>
       </div>
     </section>
-    <section id="bicycle">
-      <h2>Bicycle</h2>
-      <div class="sectionContent">
-        <p>
-        </p>
-      </div>
+
+    <!-- bicycle -->
+    <section id="bicycle" class="cmnSection">
+      <h2 class="cmnSection__heading">Bicycle</h2>
+      <!-- list -->
+      <ul class="bicycleContent">
+        <!-- card -->
+        <li class="bicycleContent__item bicycleCard">
+          <div class="bicycleCard__img">
+            <img src="./images/bicycle1.jpg " alt="自転車1" width="263" height="174" />
+          </div>
+          <div class="bicycleCard__txt">
+            <h3>タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </div>
+        </li>
+        <!-- card -->
+        <li class="bicycleContent__item bicycleCard">
+          <div class="bicycleCard__img">
+            <img src="./images/bicycle2.jpg" alt="自転車2" width="263" height="174" />
+          </div>
+          <div class="bicycleCard__txt">
+            <h3>タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </div>
+        </li>
+        <!-- card -->
+        <li class="bicycleContent__item bicycleCard">
+          <div class="bicycleCard__img">
+            <img src="./images/bicycle3.jpg" alt="自転車3" width="263" height="174" />
+          </div>
+          <div class="bicycleCard__txt">
+            <h3>タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
   <footer></footer>
